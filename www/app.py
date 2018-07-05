@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 def index(request):
-    return web.Response(body=b'<h1>Awesome</h1>')
+    return web.Response(body=b'<h1>Awesome</h1>', content_type='text/html')
 
 
 async def init(loop):
