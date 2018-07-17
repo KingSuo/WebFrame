@@ -1,7 +1,7 @@
 import time
 import uuid
 
-from orm import Model, StringField, BooleanField, FloatField, TextField
+from www.orm import Model, StringField, BooleanField, FloatField, TextField
 
 
 def next_id():
